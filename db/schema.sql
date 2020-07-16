@@ -1,3 +1,6 @@
-SQLite version 3.32.3 2020-06-18 14:00:33
-Enter ".help" for usage hints.
-sqlite> 
+CREATE TABLE candidates (
+  id INTEGER PRIMARY KEY,
+  first_name VARCHAR(30) NOT NULL,
+  last_name VARCHAR(30) NOT NULL,
+  industry_connected BOOLEAN NOT NULL
+);
